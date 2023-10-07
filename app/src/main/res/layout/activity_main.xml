@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:labelFor="@id/expressionET"
+        android:id="@+id/expressionET"
+        android:layout_width="wrap_content"
+        android:autofillHints="none"
+        android:importantForAccessibility="no"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="8dp"
+        android:focusable="false"
+        android:gravity="end"
+        android:inputType="none"
+        android:textColor="@color/white"
+        android:background="@color/dark_gray"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_gray"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textSize="25sp"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/clearB"
+            style="@style/WidgetStyles"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/clear_text"
+            />
+
+        <Button
+            android:id="@+id/plusMinusB"
+            style="@style/WidgetStyles"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="@string/plus_minus_text"
+             />
+
+        <Button
+            android:id="@+id/percentB"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="@string/percent_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/divideB"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text=   "@string/division_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/sevenB"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/seven_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/eightB"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="@string/eight_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/nineB"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="@string/nine_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/multiplyB"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="@string/multiply_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/fourB"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="@string/four_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/fiveB"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="@string/five_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/sixB"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="@string/six_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/subtractB"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="@string/subtract_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/threeB"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="@string/three_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/twoB"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="@string/two_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/oneB"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/one_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/addB"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:text="@string/add_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/zeroB"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="@string/zero_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/dotB"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="@string/dot_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/delB"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:text="@string/del_text"
+            style="@style/WidgetStyles" />
+
+        <Button
+            android:id="@+id/equalB"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:text="@string/equal_text"
+            style="@style/WidgetStyles" />
+
+
+
+
+    </GridLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
